@@ -5,10 +5,7 @@
     padding: 0;
 }
 
-body{
-    margin: 0;
-    padding: 0;
-}
+
 
 .nav{
   width: 100%;
@@ -71,11 +68,11 @@ margin-top: 100px;
 
 
 .box2{
-
     display: flex;
     justify-content: space-evenly;
-    text-align: center;
-    gap: 20px;
+    text-align: left;
+    gap: 40px;
+    padding: 15px;
 }
 
 .box2 div {
@@ -93,3 +90,25 @@ margin-top: 100px;
     padding: 10px;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.chill {
+    height: auto;
+    width: 100%;
+    gap: 15px;
+   
+    margin: 10px auto 0px auto;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.chi {
+    height: 100%;
+    width: 30%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding-top: 30px;
+}
